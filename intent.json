@@ -1,0 +1,43 @@
+{"intent": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "yo", "How you doing"],
+         "responses": ["Hello! Ask me about" ,"Hello! how can i assist you today?", "Hey! You can ask me about "]
+         
+        },
+        {"tag": "goodbye",
+         "patterns": ["Thanks for your service", "I should go", "Goodbye", "am Leaving", "Bye", "That's all for today", "am leaving", "I am leaving"],
+         "responses": ["Okay! Have a nice day", "Enjoy your meal", "Goodbye! Enjoy your meal", "Have a Nice Day and enjoying meal"]
+         
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Xeno", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 2 months old!", "Not old. 2 months young"]
+         
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "Tell me about Your self", "whats your name?", "who are you?", "Whose this?", "real person?", "Know about", "yourself"],
+         "responses": ["My name is Xeno. I work for Food Station. I am a chat bot created using NLP", "I'm Xeno! NLP is my Core", "Xeno is the name. Assistance is my domain", "I am a chatbot named Xeno, Used by the Food Station."]
+         
+        },
+		{"tag": "ordering",
+         "patterns": ["1","2","3","4","5","Order 1","Order 2","Order 3","Order 4","Order 5"],
+         "responses": [" on the way. Your Order will be ready in 2 minutes. You can tell me your Customer Id if you have one. Just type your 5 digit no. If Not then I can assign one to you."]
+         
+        },
+		{"tag": "no id",
+         "patterns": ["No I dont have an id.", "No I dont have a Customer ID", "Customer ID is not present", "no Id", "Id not present", "No i dont have mine", "dont have", "not present", "i dont have an ID"],
+         "responses": ["No Problem. Let me generate one for you.", "Wait I'll be back with a new Customer Id for you.", "Let me get you a new CID, Haha!"]
+         
+        },
+        {"tag": "Food",
+         "patterns": ["am hungry","snacks","dinner","lunch","food","I want to order something","i would like to order","order","Id like to buy something", "whats on today's menu", "what do you reccommend?", "could i get something to eat", "what snacks are available?", "I'd like to order something", "I want to order"],
+         "responses": ["Yes! You can see the menu above to order", "You can have a look at the menu above"]
+         
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation", "Are you open tomorrow?", "opening timings", "timings?"],
+         "responses": ["We are open from 9:00AM to 9:00PM, all around the week"]
+         
+        }
+   ]
+}
