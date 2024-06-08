@@ -38,4 +38,8 @@ To get started with Xeno, follow these steps:
 
 ## Demo Video
 
+[![Xeno Chatbot Demo](https://github.com/KA-0335/NLP/blob/main/Screenshot%202024-06-08%20151122.png)](https://drive.google.com/file/d/1btMM6JpeMyxBlgG2pRm0WHab-i62lxQ_/view?usp=sharing)
+
+*Click the image to watch the video.*
+
 
